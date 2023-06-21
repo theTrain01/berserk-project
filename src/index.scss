@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+
+  position: relative;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  background-position: center 30%;
+  background-image: url(./assets/images/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  &::before {
+    content: '';
+
+    width: 100%;
+    min-height: 100%;
+
+    position: absolute;
+    z-index: -1;
+
+    mix-blend-mode: overlay;
+    box-shadow: inset 10px 0 20px -4px #1fbac5;
+    filter: blur(5px);
+    backdrop-filter: blur(5.5px);
+
+    @media only screen and (max-width:1550px) {
+      min-height: 102%;
+    }
+  }
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  z-index: 10;
+  
+  &::before {
+    content: '';
+    display: block;
+
+    width: 280px;
+    height: 380px;
+
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    z-index: -1;
+
+    background: url(./assets/images/guts_image.png);
+
+    @media only screen and (max-width: 1550px) {
+     display: none;
+    }
+  }
+
+  &::after {
+    content: '';
+    display: block;
+
+    width: 250px;
+    height: 350px;
+
+    position: absolute;
+
+    left: 0;
+    bottom: -10px;
+    z-index: -1;
+
+    background: url(./assets/images/Kentaro_Miura_image.png) no-repeat;
+
+    @media only screen and (max-width: 1550px) {
+     display: none;
+    }
+  }
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}

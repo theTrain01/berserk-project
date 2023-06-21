@@ -1,0 +1,26 @@
+.textAbout {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    animation: textAnimOpacity 3s ease-in-out alternate;
+        
+
+    @keyframes textAnimOpacity {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+.textAbout p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}

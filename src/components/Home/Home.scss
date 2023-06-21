@@ -1,0 +1,180 @@
+  .about_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: 768px){
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  }
+  
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 82px;
+    line-height: 0;
+    margin: 100px 0;
+  
+    color: #FFFFFF;
+
+    @media only screen and (max-width: 1550px) {
+      font-size: 72px;
+      margin: 80px 0;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 52px;
+      margin: 52px 0;
+    }
+
+    @media only screen and (max-width: 768px){
+      text-align: center;
+    }
+  }
+  
+  h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 82px;
+    letter-spacing: 0.03em;
+    line-height: 0;
+  
+    color: #FFFFFF;
+
+    @media only screen and (max-width: 1550px) {
+      font-size: 72px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 52px;
+    }
+
+    @media only screen and (max-width: 768px){
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 425px){
+      margin-bottom: 55px;
+    }
+  }
+  .about_description {
+    max-width: 535px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+  
+    color: #FFFFFF;
+
+    @media only screen and (max-width: 1550px) {
+     font-size: 18px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 15px; 
+      max-width: 395px;
+    }
+
+    @media only screen and (max-width: 768px){
+      text-align: center;
+    }
+  }
+  
+  .text_japan_right {
+    max-width: 635px;
+  
+    @media only screen and (max-width: 1024px) {
+      font-size: 23px;
+      line-height: 35px;
+    }
+
+    .berserk {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 39px;
+      color: #FFFFFF;
+
+      @media only screen and (max-width: 1550px) {
+        font-size: 23px;
+        line-height: 35px;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        max-width: 432px;
+      }
+
+      @media only screen and (max-width: 768px){
+        text-align: center;
+      }
+
+      @media screen and (max-width: 425px) {
+        display: none;
+      }
+    }
+  }
+
+  .text_japan_right_copy {
+    .berserk {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 35px;
+      color: #FFFFFF;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    display: none;
+
+    @media screen and (max-width: 425px) {
+      display: block;
+    }
+  }
+  
+  
+  .last_item {
+    p {
+      font-family: 'IBM Plex Sans', sans-serif;
+      max-width: 662px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+  
+      color: #FFFFFF;
+
+      @media only screen and (max-width: 1024px) {
+        font-size: 17px;
+      }
+    }
+  }
+  
+  .last_inner_block {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .last_block {
+    margin-top: 290px;
+
+    @media only screen and (max-width: 1550px) {
+      margin-top: 40px;
+    }
+
+    @media only screen and (max-width: 1800px) {
+      margin-top: 220px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      margin-top: 100px;
+    }
+
+    @media only screen and (max-width: 425px) {
+      margin-top: 25px;
+    }
+}

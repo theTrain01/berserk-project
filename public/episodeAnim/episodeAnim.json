@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "episode": 1,
+        "title": "The Black Swordsman",
+        "animUrl": "../fileEpisode/Episode 1 Berserk.mp4"
+    },
+
+    {
+        "id": 1,
+        "episode": 2,
+        "title": "Band of the Hawk",
+        "animUrl": "../fileEpisode/Episode 2 Berserk.mp4"
+    },
+
+    {
+        "id": 2,
+        "episode": 3, 
+        "title": "First Battle",
+        "animUrl": "../fileEpisode/Episode 1 Berserk.mp4"
+    }
+]
